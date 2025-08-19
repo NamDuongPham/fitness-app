@@ -1,4 +1,6 @@
-export const workoutProgram = {
+import type { WorkoutProgram } from "./interface";
+
+export const workoutProgram: WorkoutProgram = {
   0: {
     // Push
     warmup: [
